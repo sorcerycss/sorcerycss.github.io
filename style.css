@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: #136C72;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.btn {
+    color: #23424A;
+    font-weight: 700;
+    font-size: 21px;
+}
