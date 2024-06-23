@@ -16,6 +16,18 @@ body {
     margin: 0 auto;
 }
 
+.row {
+    display: flex;
+}
+
+.col {
+    width: 100%;
+}
+
+.col + .col {
+    margin-left: 100px;
+}
+
 .hero {
     padding: 6.25em 0;
     background-color: #136C72;
@@ -26,6 +38,26 @@ body {
     width: 50%;
 }
 
+.hero p {
+    margin-bottom: 3em;
+}
+
+.three-col {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.three-col h2 {
+    color: #87629A;
+}
+
+.two-col {
+    text-align: center;
+    padding: 3em 0;
+    background: #136C72;
+    color: white;
+}
+
 .title {
     font-size: 3rem;
     font-weight: 900;
@@ -33,10 +65,6 @@ body {
 
 .text {
     font-weight: 400;
-}
-
-.hero p {
-    margin-bottom: 3em;
 }
 
 .btn {
