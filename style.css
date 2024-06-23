@@ -24,7 +24,7 @@ body {
     width: 100%;
 }
 
-.col + .col {
+.col+.col {
     margin-left: 100px;
 }
 
